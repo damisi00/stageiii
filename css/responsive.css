@@ -478,7 +478,7 @@ footer p{
 
 
 /* Tablet View */
-@media (min-width:480px) and (max-width:769px) {
+@media (min-width:480px) and (max-width:1023px) {
     .icons-div{
         display: flex;
         flex-direction: row;
@@ -532,7 +532,8 @@ footer p{
         justify-content: space-evenly;
     }
     .about-imgs>div{
-        width: 45%;
+        width: 40%;
+        height: 30vh;
     }
     .red-btnl{
         margin-right: 1rem;
@@ -549,7 +550,7 @@ footer p{
 
 /* DESKTOP VIEW */
 
-@media (min-width:769px)  {
+@media (min-width:1024px) and (max-width:2500px) {
     .icons-div{
         display: flex;
         flex-direction: row;
@@ -618,7 +619,9 @@ footer p{
         max-width: 40%;
         padding: 0;
     }
-    
+    .about h3{
+        font-size: 6rem;
+    }
     .about-imgs{
         flex-direction: row;
         width: 40%;
