@@ -342,13 +342,18 @@ h1{
 }
 
 #six{
+   
+    height: auto;
+    background-color: #104e92;
+    width: 100%;
+}
+.six-about{
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
     flex-direction: column;
-    height: auto;
-    background-color: #104e92;
-    width: 100%;
+
 }
 .about{
     text-align: left;
@@ -455,7 +460,7 @@ footer{
     
 }
 footer p{
-    max-width: 50%;
+    max-width: 70%;
     margin: 2.25rem 25%;
     color: #fff;
     font-size: 0.875rem;
@@ -466,7 +471,7 @@ footer p{
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
-    max-width: 60%;
+   
 }
 .links span{
     color: #fff;
@@ -496,9 +501,11 @@ footer p{
         height: 5rem;
     }
     .indvl-icon h6{
-        padding-top: 1rem;
+        padding-top: 1.8rem;
         font-weight: 400;
         text-align: left;
+        font-size: 1rem;
+        letter-spacing: 2px;
     }
     #two{
         height: 80vh;
@@ -568,9 +575,11 @@ footer p{
         height: 5rem;
     }
     .indvl-icon h6{
-        padding-top: 1rem;
+        padding-top: 1.8rem;
         font-weight: 400;
         text-align: left;
+        font-size: 1rem;
+        letter-spacing: 2px;
     }
     #two{
         height: 80vh;
@@ -608,29 +617,33 @@ footer p{
     .cards{
         padding-right:2rem;
     }
-    #six{
-        margin: 0;
+    .six-about{
+        margin: 0 auto;
         flex-direction: row;
         height: 70vh;
         align-items: center;
         justify-content: center;
+        width: 80%;
     }
     .about{
-        max-width: 40%;
+        width: 45%;
         padding: 0;
+
     }
     .about h3{
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .about-imgs{
         flex-direction: row;
-        width: 40%;
+        width: 45%;
         margin-left: 5%;
         padding: 0;
+        height:50vh;
+        align-content: space-evenly;
     }
     .about-imgs>div{
         width: 40%;
-        height: 22vh;
+       height: 20vh;
     }
     .red-btnl{
         margin-right: 1rem;
