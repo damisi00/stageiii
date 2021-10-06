@@ -72,7 +72,7 @@ nav{
     padding-left: 5%;
     background-size: cover;
     background: url(../images/hero-bg.jpg)no-repeat;
-   
+    background-position: 71% 6%;
     object-fit: cover;
     vertical-align: middle;
     /* background-position: center;  */
